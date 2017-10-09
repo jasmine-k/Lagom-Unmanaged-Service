@@ -8,6 +8,7 @@ import com.lightbend.lagom.javadsl.api.ServiceCall;
 
 import java.util.concurrent.CompletableFuture;
 
+
 public class UserServiceImpl implements UserService {
 
     final CompletableFuture<Object> future = CompletableFuture.supplyAsync(() -> {
@@ -22,6 +23,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public ServiceCall<NotUsed, Object> helloUser() {
+
 
         return request -> //future;
                 extractService.getUserData();

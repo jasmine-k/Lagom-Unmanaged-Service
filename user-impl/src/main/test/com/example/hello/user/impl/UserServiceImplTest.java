@@ -5,6 +5,8 @@ import com.example.hello.user.models.UserData;
 import com.example.hello.user.services.ExternalService;
 import com.example.hello.user.services.ExtractService;
 import com.google.inject.Inject;
+import mockit.Mock;
+import mockit.MockUp;
 import org.junit.Test;
 import org.mockito.Mockito;
 
@@ -75,9 +77,10 @@ static class UserStub implements UserService {
 */
 //@RunWith(PowerMockRunner.class)
 
-public class UserServiceImplTest extends Mockito{
+public class UserServiceImplTest extends Mockito {
 
 
+    private ExternalService externalService;
 
 
    /* private final ServiceTest.Setup setup = defaultSetup()
@@ -86,50 +89,35 @@ public class UserServiceImplTest extends Mockito{
     //  private final ServiceTest.Setup setup2 = defaultSetup().withCluster(true);
 
 
-    private ExternalService externalService;
-/*
-     private final ServiceTest.Setup setup = defaultSetup()
-             .withConfigureBuilder(b -> b.overrides(
-                     bind(ExtractService.class).to(ExtractStub.class)));*/
-     @Test
+    /*
+         private final ServiceTest.Setup setup = defaultSetup()
+                 .withConfigureBuilder(b -> b.overrides(
+                         bind(ExtractService.class).to(ExtractStub.class)));*/
+    @Test
     public void shouldGetUserData() throws Exception {
 
-         ExtractService extractService = mock(ExtractService.class);
-
+        //  ExtractService extractService = mock(ExtractService.class);
+        final CompletionStage<Object> expectedResponse = CompletableFuture.supplyAsync(() -> {
+            return "Un-managed Service Data";
+        });
+        new MockUp<ExtractService>() {
+            @SuppressWarnings("unused")
+            @Mock
+            public CompletionStage<Object> getUserData() {
+                return expectedResponse;
+            }
+        };
 
         withServer(defaultSetup(), server -> {
 
-            final CompletionStage<Object> expectedResponse = CompletableFuture.supplyAsync(() -> {
-                return "42";
-            });
-            when(extractService.getUserData()).thenReturn(expectedResponse);
+
             UserService service = server.client(UserService.class);
-            System.out.println("\n\njasmine_______________________________________________"+expectedResponse);
+           // System.out.println("\n\njasmine______" + expectedResponse);
 
-            expectedResponse.thenAccept((a)->System.out.println(a));
+            expectedResponse.thenAccept((a) -> System.out.println(a));
             Object receivedResponse = service.helloUser().invoke().toCompletableFuture().get(5, SECONDS);
-            System.out.println("jassu5");
-
-            System.out.println("\n\njasmine "+expectedResponse);
-            System.out.println("\n\njasminekaur "+receivedResponse);
-            expectedResponse.thenAccept((expectedResult)->assertEquals(expectedResult,receivedResponse));
+            expectedResponse.thenAccept((expectedResult) -> assertEquals(expectedResult, receivedResponse));
         });
-
-
-    }
-
-    static class ExtractStub extends ExtractService {
-        @Inject
-        ExtractStub(ExternalService externalService) {
-            super(externalService);
-        }
-
-        @Override
-        public CompletionStage<Object> getUserData() {
-            UserData userData = new UserData();//(1,1,"","");
-
-            return CompletableFuture.completedFuture(userData);
-        }
     }
 }
 
