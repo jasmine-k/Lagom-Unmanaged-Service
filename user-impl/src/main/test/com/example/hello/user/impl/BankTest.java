@@ -20,7 +20,7 @@ public class BankTest {
     @Mocked
     static BankUsage bankUsage;
 
-    private static Bank bank;
+    private static Bank bank = new Bank(dbManager);
 
     @Before
     public void setUp() {
@@ -44,6 +44,7 @@ public class BankTest {
         new MockUp<Bank>() {
             @Mock
             public void $init(String name) {
+                name = "abc";
             }
         };
 
@@ -107,12 +108,13 @@ public class BankTest {
         new MockUp<Bank>() {
             @Mock
             public void $init(String name) {
+                name = "akkjaas";
             }
 
 
         };
 
-        // Bank bank = new Bank("jassu");
+        Bank bank = new Bank("jassu");
         String actualResult = bank.getName();
         assertNull("jassu", actualResult);
     }
@@ -149,6 +151,7 @@ public class BankTest {
 */
         /*Bank bank = new Bank("jassu");
         Long actualResult = bank.getValue2();*/
+
         Long actualResult = bank.getValue2();
         assertEquals("static block check", new Long(45L), actualResult);
 
@@ -165,6 +168,7 @@ public class BankTest {
         };
 */
         //   Bank bank = new Bank("jassu");
+
         Long actualResult = bank.getValue3();
         assertEquals("static block check", new Long(48L), actualResult);
 
