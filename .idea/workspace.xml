@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a1cee2-1932-43b1-9868-f381b51fb16e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user-external/target/test-classes/com/example/hello/user/services/ExtractServiceTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-external/target/classes/com/example/hello/user/services/ExtractService.class" afterPath="$PROJECT_DIR$/user-external/target/classes/com/example/hello/user/services/ExtractService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/target/classes/com/example/hello/user/impl/Bank.class" afterPath="$PROJECT_DIR$/user-impl/target/classes/com/example/hello/user/impl/Bank.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/target/classes/com/example/hello/user/impl/DBManager.class" afterPath="$PROJECT_DIR$/user-impl/target/classes/com/example/hello/user/impl/DBManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/target/classes/com/example/hello/user/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/user-impl/target/classes/com/example/hello/user/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/target/test-classes/com/example/hello/user/impl/BankTest$1.class" afterPath="$PROJECT_DIR$/user-impl/target/test-classes/com/example/hello/user/impl/BankTest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/target/test-classes/com/example/hello/user/impl/BankTest.class" afterPath="$PROJECT_DIR$/user-impl/target/test-classes/com/example/hello/user/impl/BankTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/target/test-classes/com/example/hello/user/impl/UserServiceImplTest$1.class" afterPath="$PROJECT_DIR$/user-impl/target/test-classes/com/example/hello/user/impl/UserServiceImplTest$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/target/test-classes/com/example/hello/user/impl/UserServiceImplTest.class" afterPath="$PROJECT_DIR$/user-impl/target/test-classes/com/example/hello/user/impl/UserServiceImplTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-kafka/target/log4j_output/controller.log" afterPath="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-kafka/target/log4j_output/controller.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-kafka/target/log4j_output/log-cleaner.log" afterPath="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-kafka/target/log4j_output/log-cleaner.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-kafka/target/log4j_output/server.log" afterPath="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-kafka/target/log4j_output/server.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/logs/application.log" afterPath="$PROJECT_DIR$/user-impl/logs/application.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/pom.xml" afterPath="$PROJECT_DIR$/user-impl/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-api/user-api.iml" afterPath="$PROJECT_DIR$/user-api/user-api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-external/pom.xml" afterPath="$PROJECT_DIR$/user-external/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-external/src/test/com/example/hello/user/services/ExtractServiceTest.java" afterPath="$PROJECT_DIR$/user-external/src/test/com/example/hello/user/services/ExtractServiceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-external/user-external.iml" afterPath="$PROJECT_DIR$/user-external/user-external.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/Bank.java" afterPath="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/Bank.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/DBManager.java" afterPath="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/DBManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/BankTest.java" afterPath="$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/BankTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/UserServiceImplTest.java" afterPath="$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/UserServiceImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user-impl/user-impl.iml" afterPath="$PROJECT_DIR$/user-impl/user-impl.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/integration-tests/target/" />
     <ignored path="$PROJECT_DIR$/stream-api/target/" />
@@ -38,35 +48,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExtractService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExtractService.java">
+      <file leaf-file-name="BankTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/BankTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="59">
+              <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#717#849#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#1950#2157#0" expanded="true" />
+                <element signature="e#2156#2157#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/welcome-api/src/main/java/com/example/hello/welcome/api/WelcomeService.java">
+      <file leaf-file-name="BeforeClass.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/BeforeClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="-270">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserServiceImpl.java">
+      <file leaf-file-name="BankUsage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/BankUsage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="36">
+              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/Bank.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#820#821#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,79 +102,50 @@
       <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/DBManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="36">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImplTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/UserServiceImplTest.java">
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="114" column="13" lean-forward="false" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3125#3337#0" expanded="true" />
-                <element signature="e#3168#3195#0" expanded="true" />
-                <element signature="e#3336#3337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/Bank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="125">
+              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/BankTest.java">
+      <file leaf-file-name="ExtractServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-external/src/test/com/example/hello/user/services/ExtractServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="26">
+              <caret line="50" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#244#271#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#0#2362#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserModule.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserModule.java">
+      <file leaf-file-name="ExtractService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExtractService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="414">
+              <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/welcome-impl/src/main/java/com/example/hello/welcome/impl/WelcomeServiceImpl.java">
+      <file leaf-file-name="ExternalService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExternalService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-impl/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -183,6 +181,16 @@
       <find>unit</find>
       <find>jun</find>
       <find>setUp</find>
+      <find>ret</find>
+      <find>assertnull</find>
+      <find>bank</find>
+      <find>getValue</find>
+      <find>retr</find>
+      <find>testBank</find>
+      <find>init</find>
+      <find>new</find>
+      <find>bankUsage</find>
+      <find>name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,8 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hello-impl/src/main/java/com/example/hello/hello/impl/HelloModule.java" />
-        <option value="$PROJECT_DIR$/hello-api/src/main/java/com/example/hello/hello/api/HelloService.java" />
         <option value="$PROJECT_DIR$/welcome-api/src/main/java/com/example/welcome/welcome/api/WelcomeServiceImpl.java" />
         <option value="$PROJECT_DIR$/welcome-impl/src/main/java/com/example/welcome/welcome/impl/WelcomeModule.java" />
         <option value="$PROJECT_DIR$/welcome-api/src/main/java/com/example/welcome/welcome/api/WelcomeService.java" />
@@ -236,16 +242,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/models/UserData.java" />
         <option value="$PROJECT_DIR$/user-api/pom.xml" />
-        <option value="$PROJECT_DIR$/user-external/src/test/com/example/hello/user/services/ExtractServiceTest.java" />
         <option value="$PROJECT_DIR$/user-api/src/main/java/com/example/hello/user/api/UserService.java" />
         <option value="$PROJECT_DIR$/hello-impl/pom.xml" />
         <option value="$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExtractService.java" />
         <option value="$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExternalService.java" />
         <option value="$PROJECT_DIR$/user-impl/pom.xml" />
-        <option value="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/DBManager.java" />
-        <option value="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/Bank.java" />
         <option value="$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/BankUsage.java" />
+        <option value="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/DBManager.java" />
+        <option value="$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/DBManagerTest.java" />
+        <option value="$PROJECT_DIR$/user-external/src/test/com/example/hello/user/services/ExtractServiceTest.java" />
+        <option value="$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/Bank.java" />
         <option value="$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/BankTest.java" />
       </list>
     </option>
@@ -295,6 +303,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,6 +320,76 @@
             <path>
               <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="hello-impl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
               <item name="user-external" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,6 +430,21 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="user-external" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-first-program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-first-program" type="462c0819:PsiDirectoryNode" />
+              <item name="user-external" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -478,10 +573,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,17 +586,18 @@
     <property name="jdk.selected.PLUGIN_MODULE" value="IntelliJ IDEA Community Edition IC-172.3544.35" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.example.hello.user.impl" />
       <recent name="com.example.hello.user.services" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.hello.user.api" />
+      <recent name="com.example.hello.user.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.hello.user.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/user-impl/src/main" />
@@ -525,7 +619,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BankTest.testBank">
+  <component name="RunManager" selected="JUnit.BankTest">
+    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.hello.user.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="user-impl" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.hello.user.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.user.impl.BankTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="BankTest.fakingImplementationClassesFromAGivenBaseType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.hello.user.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="user-impl" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.hello.user.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.user.impl.BankTest" />
+      <option name="METHOD_NAME" value="fakingImplementationClassesFromAGivenBaseType" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="BankTest.testBank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -551,13 +695,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankTest.testGetValue1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.example.hello.user.impl.*" />
@@ -568,7 +706,32 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.example.hello.user.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.user.impl.UserServiceImplTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.user.impl.BankTest" />
+      <option name="METHOD_NAME" value="testGetValue1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ExtractServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.example.hello.user.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="user-external" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.example.hello.user.services" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hello.user.services.ExtractServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -582,30 +745,11 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UserServiceImplTest.shouldGetUserData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.example.hello.user.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="user-impl" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.example.hello.user.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hello.user.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="shouldGetUserData" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+    <configuration name="Plugin" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -688,17 +832,21 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Plugin.Plugin" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.shouldGetUserData" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BankTest.testBank" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BankTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BankTest.testGetValue1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BankTest.fakingImplementationClassesFromAGivenBaseType" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ExtractServiceTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.BankTest.testBank" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BankTest.testBank" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserServiceImplTest.shouldGetUserData" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BankTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BankTest.testBank" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExtractServiceTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BankTest.fakingImplementationClassesFromAGivenBaseType" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BankTest.testGetValue1" />
       </list>
     </recent_temporary>
   </component>
@@ -724,35 +872,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BankTest_testBank - 2017.10.09 at 12h 06m 28s.xml">
-      <configuration name="BankTest.testBank" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 16m 51s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankTest_testBank - 2017.10.09 at 12h 09m 13s.xml">
-      <configuration name="BankTest.testBank" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 17m 58s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BankTest_testBank - 2017.10.09 at 12h 09m 37s.xml">
-      <configuration name="BankTest.testBank" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 18m 32s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest - 2017.10.06 at 17h 45m 36s.xml">
-      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 18m 48s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest - 2017.10.06 at 17h 47m 47s.xml">
-      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 19m 58s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest - 2017.10.06 at 17h 52m 06s.xml">
-      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 25m 00s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest - 2017.10.06 at 18h 34m 14s.xml">
-      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 27m 25s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest - 2017.10.09 at 11h 46m 14s.xml">
-      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 27m 55s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest - 2017.10.09 at 12h 02m 20s.xml">
-      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 30m 58s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserServiceImplTest - 2017.10.09 at 12h 06m 01s.xml">
-      <configuration name="UserServiceImplTest" configurationId="JUnit" />
+    <history-entry file="BankTest - 2017.10.10 at 16h 32m 06s.xml">
+      <configuration name="BankTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -761,96 +909,74 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.00622084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33592534" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25505444" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3534884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33386454" sideWeight="0.87906975" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33944222" sideWeight="0.87906975" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3633466" sideWeight="0.12093023" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988048" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39968896" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32192847" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3534884" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33386454" sideWeight="0.87906975" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3633466" sideWeight="0.12093023" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/example/hello/user/api/GreetingMessage.java" />
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/example/hello/user/api/CustomSerializers.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.7.8/jackson-databind-2.7.8.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="865" column="22" lean-forward="false" selection-start-line="865" selection-start-column="17" selection-end-line="865" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/resources/META-INF/plugin.xml" />
-    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/example/hello/user/api/UserData.java" />
-    <entry file="file://$PROJECT_DIR$/user-external/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/api/UserData.java" />
-    <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/api/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/api/ExternalService.java" />
-    <entry file="file://$PROJECT_DIR$/stream-impl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/user-api.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExtractModule.java" />
-    <entry file="file://$PROJECT_DIR$/user-external/user-external.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-external/src/main/resources/application.conf" />
     <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExtractServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserServiceImplTest.java" />
-    <entry file="file://$PROJECT_DIR$/hello-impl/src/test/resources/logback-test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-external/src/test/com/example/hello/user/services/ExternalServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/services/ExtractServiceTest.java" />
     <entry file="file://$PROJECT_DIR$/hello-api/src/main/java/com/example/hello/hello/api/GreetingMessage.java">
@@ -896,17 +1022,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-external/src/test/com/example/hello/user/services/ExtractServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-impl/src/main/resources/application.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="62" lean-forward="false" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -914,20 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="89">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-impl/src/test/java/com/example/hello/hello/impl/HelloEntityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello-impl/src/test/java/com/example/hello/hello/impl/HelloServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -969,29 +1075,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/example/hello/user/api/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExternalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/lightbend/lagom/lagom-javadsl-api_2.11/1.3.6/lagom-javadsl-api_2.11-1.3.6.jar!/com/lightbend/lagom/javadsl/api/ServiceCall.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,7 +1111,7 @@
         <state relative-caret-position="367">
           <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1045,22 +1132,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExtractService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jmockit/jmockit/1.8/jmockit-1.8.jar!/mockit/internal/expectations/transformation/ExpectationsTransformer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="137">
+          <caret line="106" column="12" lean-forward="true" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserServiceImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="190">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="193" column="5" lean-forward="true" selection-start-line="193" selection-start-column="5" selection-end-line="193" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/DBManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="74" lean-forward="false" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1068,48 +1187,175 @@
     <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="11" selection-end-column="42" />
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-impl/src/test/java/com/example/hello/hello/impl/HelloServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="26" column="80" lean-forward="false" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-impl/src/test/java/com/example/hello/hello/impl/HelloEntityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-impl/src/test/resources/logback-test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-impl/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello-impl/src/main/java/com/example/hello/hello/impl/HelloModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.0/guice-4.0.jar!/com/google/inject/Inject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.0/guice-4.0-sources.jar!/com/google/inject/Inject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-632">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-api/src/main/java/com/example/hello/user/api/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#855#1067#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-external/src/test/com/example/hello/user/services/ExtractServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="50" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#2362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExternalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-external/src/main/java/com/example/hello/user/services/ExtractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/BankUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/BeforeClass.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/BeforeClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-impl/src/main/java/com/example/hello/user/impl/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/BankTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="59">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#244#271#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-impl/src/main/test/com/example/hello/user/impl/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="114" column="13" lean-forward="false" selection-start-line="114" selection-start-column="13" selection-end-line="114" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3125#3337#0" expanded="true" />
-            <element signature="e#3168#3195#0" expanded="true" />
-            <element signature="e#3336#3337#0" expanded="true" />
+            <element signature="e#717#849#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#1950#2157#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
           </folding>
         </state>
       </provider>

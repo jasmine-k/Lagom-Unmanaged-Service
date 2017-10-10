@@ -17,6 +17,11 @@
             <groupId>com.lightbend.lagom</groupId>
             <artifactId>lagom-javadsl-testkit_2.11</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.jmockit</groupId>
+            <artifactId>jmockit</artifactId>
+            <version>1.35</version>
+        </dependency>
     </dependencies>
     <packaging>jar</packaging>
 </project>

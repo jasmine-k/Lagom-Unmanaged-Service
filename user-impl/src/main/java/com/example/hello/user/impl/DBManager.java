@@ -1,12 +1,15 @@
 package com.example.hello.user.impl;
 
-public class DBManager {
+public class DBManager implements BankUsage{
+
+    @Override
+    public Long getValue(){
+        return 1L;
+    }
+
     public String retrieveAccountHolderName(int accountId ){
         String accountHolderName = null;
-
-        //connect to db
-        //retrieve the  Account Holder Name
-
         return accountHolderName;
     }
+
 }
